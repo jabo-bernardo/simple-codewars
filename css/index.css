@@ -1,0 +1,24 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.CodeMirror {
+    font-family: "JetBrains Mono";
+}
+
+body {
+    background: #121212;
+}
+
+.out {
+    background: #272727;
+    color: white;
+    font-family: "JetBrains Mono";
+    padding: 0.5rem;
+}
+
+.out.red {
+    color: rgb(219, 31, 31);
+}
