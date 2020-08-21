@@ -10,6 +10,9 @@
         <!-- Styling -->
         <link rel="stylesheet" href="/css/index.css"/>
 
+        <!-- FONTS -->
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
         <!-- CODE MIRROR IMPORTS -->
         <!-- MODES -->
         <script src="/modes/javascript/javascript.js"></script>
@@ -17,8 +20,38 @@
         <link rel="stylesheet" href="/themes/material-darker.css">
     </head>
     <body>        
-        <textarea></textarea>
-        <p class="out"></p>
+        <div class="root">
+            <header>
+                <h1>CodeWaws</h1>
+            </header>
+            <main>
+                <div class="main-app">
+                    <div class="instructions">
+                        <h2>Instructions</h2>
+                        <p>Given a string s, write a method (function) that will return true if its a valid single integer or floating number or false if its not.</p>
+                        <p>Valid examples, should return true:</p>
+                        <div class="code-block">
+                            isDigit("3") <br>
+                            isDigit("  3  ") <br>
+                            isDigit("-3.23") <br>
+                        </div>
+                        <p>should return false:</p>
+                        <div class="code-block">
+                            isDigit("3-4") <br>
+                            isDigit("  3   5") <br>
+                            isDigit("3 5") <br>
+                            isDigit("zero") <br>
+                        </div>
+                    </div>
+                    <div class="editor">
+                        <textarea id="code-editor"></textarea>
+                    </div>
+                </div>
+            </main>
+            <footer>
+
+            </footer>
+        </div>
         <script src="/js/app.js"></script>
     </body>
 </html>

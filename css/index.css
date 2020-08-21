@@ -2,23 +2,62 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
 }
 
-.CodeMirror {
-    font-family: "JetBrains Mono";
+.CodeMirror *, .code-block {
+    font-family: "JetBrains Mono", monospace!important;
 }
 
 body {
     background: #121212;
 }
 
-.out {
-    background: #272727;
-    color: white;
-    font-family: "JetBrains Mono";
+header {
+    background: #212121;
+    color: #EEFFFF;
     padding: 0.5rem;
 }
 
-.out.red {
-    color: rgb(219, 31, 31);
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Noto Sans", sans-serif;
+}
+
+h1 {
+    font-size: 22px;
+}
+
+.main-app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.CodeMirror {
+    height: calc(100vh - 1.5rem - 22px);
+}
+
+.instructions {
+    background: #212121;
+    margin: 1rem;
+    padding: 0.5rem;
+    color: white;
+    border-radius: 4px;
+}
+
+.instructions h2 {
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #121212;
+    padding-bottom: 0.5rem;
+}
+
+.instructions p {
+    margin: 0.5rem 0rem;
+    color: #c2c2c2;
+}
+
+.code-block {
+    padding: 1rem;
+    background: #0c0c0c;
+    margin-top: 0.5rem;
 }
