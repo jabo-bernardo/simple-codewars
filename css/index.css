@@ -61,3 +61,19 @@ h1 {
     background: #0c0c0c;
     margin-top: 0.5rem;
 }
+
+.output {
+    background: #0c0c0c;
+    padding: 0.5rem;
+    margin: 1rem 0rem;
+}
+
+button {
+    width: 100%;
+    padding: 0.5rem;
+    background: #C3E88D;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+}
